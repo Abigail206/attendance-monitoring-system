@@ -1,70 +1,89 @@
-# Getting Started with Create React App
+# Attendance Monitoring System – Frontend
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A responsive **Attendance Monitoring System frontend** developed using **React.js** during my internship at **Motherson**.  
+The application focuses on a clean user interface, modular component structure, and role-based navigation for attendance-related operations.
 
-## Available Scripts
+---
 
-In the project directory, you can run:
+## 🏢 Internship Details
+- **Company:** Motherson
+- **Role:** Frontend Developer Intern
+- **Project Type:** Industry-based Internship Project
+- **Scope:** Frontend UI development only
 
-### `npm start`
+---
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## ✨ Key Features
+- Interactive dashboard displaying attendance summary
+- Sidebar-based navigation layout
+- Employee attendance and report user interface
+- Branch, Division, and Department master pages
+- User registration and page access screens
+- Modal popups for detailed views
+- Light / Dark theme toggle
+- Fully responsive design for different screen sizes
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+---
 
-### `npm test`
+## 🛠️ Technology Stack
+- **Frontend:** React.js, JavaScript
+- **UI & Styling:** HTML5, CSS3, Bootstrap, Styled Components
+- **Routing:** React Router
+- **Icons:** React Icons
+- **Development Tools:** Visual Studio Code, GitHub
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+---
 
-### `npm run build`
+## 📂 Project Structure
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+attendance-monitoring-system/
+├── public/
+├── src/
+│ ├── assets/
+│ ├── components/
+│ ├── pages/
+│ ├── App.js
+│ └── index.js
+├── screenshots/
+├── package.json
+└── README.md
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+---
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## ▶️ How to Run the Project Locally
 
-### `npm run eject`
+1. Clone the repository:
+git clone https://github.com/Abigail206/attendance-monitoring-system.git
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+2. Navigate to the project folder:
+cd attendance-monitoring-system
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+3. Install dependencies:
+npm install
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+4. Start the development server:
+npm start
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+The application will run at:
+http://localhost:3000
 
-## Learn More
+📸 Screenshots
+Screenshots of the application UI are available in the screenshots folder.
+Dashboard View
+Sidebar Navigation
+Attendance Pages
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+🚧 Project Limitations
+Backend services are not integrated
+Attendance data is static / UI-based
+Authentication is for UI demonstration only
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+🌱 Future Enhancements
+Backend integration (Node.js / Spring Boot)
+Database connectivity
+Real-time attendance updates
+Secure authentication and authorization
 
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+📌 Disclaimer
+This project was developed as part of an internship program and focuses on frontend implementation only.
+No confidential company data or internal logic is included.
