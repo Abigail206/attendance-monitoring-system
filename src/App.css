@@ -1,0 +1,107 @@
+/* Filename: App.css */
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+.dashboard,
+.master,
+.report,
+.pageaccess,
+.profile,
+.password,
+.logout {
+  display: flex;
+  margin-left: 260px;
+  font-size: 20px;
+ 
+}
+
+.linked{
+  height: 40px;
+  font-size: 25px;
+  margin-left: 25px;
+}
+
+.tweet{
+  height: 40px;
+  font-size: 25px;
+  margin-left: 30px;
+  margin-right: 1px;
+}
+
+
+.login-card {
+ 
+  background: linear-gradient(to left,#F2D7FA,#FFECB5,#FFECB5 , #F2D7FA);
+  border-radius: 10px;
+  
+  box-shadow: rgba(0, 0, 0, 0.2);
+  max-width: 400px; /* Adjust max-width as needed */
+  width: 100%;
+  padding: 20px;
+  box-sizing: border-box;
+  margin: 20px auto;
+}
+.text-center {
+  text-align: center;
+  color: black;
+  padding-bottom: 60px;
+  margin: auto;
+}
+
+.form-control,.form-select{
+  margin-bottom: 25px;
+}
+
+.text-center {
+  margin-bottom: 30px;
+  padding-top: 5px;
+  font-family: sans-serif;
+}
+
+.page-background .style-input {
+  min-height: 30px;
+  border-radius: 5px;
+  color: rgb(12, 12, 12);
+}
+
+.page-background .style-input::placeholder {
+  color:gray;
+}
+
+.text {
+  text-decoration: none;
+}
+
+.font {
+  color: white;
+}
+
+/* Custom scrollbar styles */
+::-webkit-scrollbar {
+  width: 12px;
+  scrollbar-width: thin;
+  
+}
+
+::-webkit-scrollbar-track {
+  background: linear-gradient(to bottom,#D279EE, #FBC390, #FBC390, #D279EE);
+}
+
+::-webkit-scrollbar-thumb {
+  background: linear-gradient(to bottom,#D279EE, #FBC390, #FBC390, #D279EE);
+
+  border-radius: 20px;
+  border: 3px solid #F5DFFB;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background:linear-gradient(to bottom,#FFF3D0,#F5DFFB,#F5DFFB,#FFF3D0);
+}
+
+.required{
+  color: red;
+}
+
